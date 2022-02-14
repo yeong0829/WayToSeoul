@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin:0;
+    font-family: 'Cafe24SsurroundAir';
+}
+div{
+    display:block;
+}
+/*
+.img{
+    width:150px;
+    height:100px;
+}
+*/
+.travel{
+    background-color: #DBD0C0;
+    padding: 104px 0;
+}
+strong{
+    font-size:30px;
+}
+.restaurant{
+    background-color: #FAEEE0;
+    padding: 104px 0 100px;
+    
+}
+.travel .travel-info {
+    position:relative;
+}
+.travel .travel-info .txt{
+    position: absolute;
+    display:block;
+    margin-bottom: 200px;
+    width: 34%;
+    top: 50%;
+    transform: translateY(-50%);
+    left:50%;
+}
+.travel .travel-info .img{
+    padding:5%;
+}
+.travel .travel-info .tr{
+    padding-left:50%;
+    
+}
+/*
+.travel .travel-info .tr{
+    position: absolute;
+    display:block;
+    margin-bottom: 200px;
+    width: 34%;
+    top: 50%;
+    transform: translateY(-50%);
+    left:50%;
+    
+}*/
+.travel .travel-info .left{
+    position: absolute;
+    display:block;
+    margin-bottom: 200px;
+    width: 34%;
+    top: 50%;
+    transform: translateY(-50%);
+    left:10%;
+}
+.item{
+    display:inline-block;
+}
+.item img{
+    width:100%;
+    height:40%;
+    margin-left:5%;
+    margin-bottom:3%;
+    border-radius:15px;
+}
+/*caption css*/
+.restaurant{
+   
+    text-align: center;
+    font-family: 'Pretendard-Regular';
+}
+.item{
+    display:inline-block;
+    width:40%;
+    height:40%;
+    position: relative;
+    margin-left:5px;
+    margin-bottom:10px;
+}
+.caption{
+    border-radius: 15px;
+    margin-bottom:3%;
+    margin-left:5%;
+    width:100%;
+    height:95%;
+    background-color:rgb(0, 0, 0,0.5);
+    position:absolute;
+    top:0;
+    left:0;
+    color:#fff;
+    padding:20px;
+    box-sizing:border-box;
+    padding-top:40px ;
+    opacity: 0;
+    transition: 0.5s;
+    text-align:center;
+    
+    
+}
+.caption a{
+    color:#fff;
+    background-color: teal;
+    padding:7px;
+    border-radius:15px;
+}
+.caption a:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+.item:hover .caption{
+    opacity: 1;
+}
