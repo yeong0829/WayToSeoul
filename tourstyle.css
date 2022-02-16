@@ -18,6 +18,7 @@
 }
 div{
     display:block;
+    font-size:20px;
 }
 /*
 .img{
@@ -28,9 +29,10 @@ div{
 .travel{
     background-color: #DBD0C0;
     padding: 104px 0;
+    overflow:hidden;
 }
 strong{
-    font-size:30px;
+    font-size:50px;
 }
 .restaurant{
     background-color: #FAEEE0;
@@ -48,6 +50,7 @@ strong{
 .footer{
     padding: 60px;
     background-color: lightgray;
+    width:100%;
 
     
 }
