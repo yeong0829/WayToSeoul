@@ -1,3 +1,5 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 @font-face {
     font-family: 'Cafe24SsurroundAir';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
@@ -32,8 +34,28 @@ strong{
 }
 .restaurant{
     background-color: #FAEEE0;
-    padding: 104px 0 100px;
+    padding: 50px 0 100px;
+    font-size:15px;
     
+}
+.restaurant h1{
+    padding-bottom:50px;
+}
+.restaurant .rt{
+    padding-bottom:50px;
+    font-size:70px;
+}
+.footer{
+    padding: 60px;
+    background-color: lightgray;
+
+    
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a:hover{
+    color:#000;
 }
 .travel .travel-info {
     position:relative;
@@ -53,6 +75,15 @@ strong{
 .travel .travel-info .tr{
     padding-left:50%;
     
+}
+
+@keyframes ani {
+    0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+  }
+.down{
+    animation: ani 1s linear;
+    animation-iteration-count: infinite;
 }
 /*
 .travel .travel-info .tr{
@@ -83,6 +114,13 @@ strong{
     margin-left:5%;
     margin-bottom:3%;
     border-radius:15px;
+}
+.footer{
+    display:inline-flex;
+    width:90%;
+}
+.footer .next{
+    margin-left:65%;
 }
 /*caption css*/
 .restaurant{
@@ -115,7 +153,7 @@ strong{
     opacity: 0;
     transition: 0.5s;
     text-align:center;
-    
+
     
 }
 .caption a{
