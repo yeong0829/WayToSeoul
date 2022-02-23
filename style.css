@@ -1,0 +1,40 @@
+#introImg{
+    height:100vh;
+    width: 100%;
+}
+.main {
+    z-index:1;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.logo{
+    top:0;
+    left:0;
+    z-index:10;
+    position:absolute;
+}
+.mainph{
+    height: 100vh;
+}
+div {
+    display: block;
+    font-size: 20px;
+}
+*   { 
+    margin:0;
+}
+
+.sub{
+    
+    background-color: #fff;
+    padding: 100px 0;
+   
+}
+.map{
+
+}
