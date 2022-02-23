@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Way to Seoul</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+       
+        var imgArray = new Array();
+        imgArray[0] = "https://cdn.pixabay.com/photo/2019/04/11/13/38/blue-4119805_1280.jpg";
+        imgArray[1] = "img/back1.jpg";
+        imgArray[2] = "img/dongdae.jpeg";
+        imgArray[3] = "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190607_146%2F1559880549935hQocc_JPEG%2FN80JyR3hBCg7DLhAv0d7IYQA.jpg";
+ 
+        function showImage() {
+            var imgNum = Math.round(Math.random() * 3);
+            var objImg = document.getElementById("introImg");
+            objImg.src = imgArray[imgNum];
+ 
+            setTimeout("showImage()", 3000);
+        }
+ 
+        
+    </script>
+</head>
+<body onload="showImage()">
+  <div class="container">
+        <div class="main">
+          <img id="introImg">
+        </div>
+        <div class="sub">
+          <div class="map"></div>
+        </div>
+      </div>
+</body>
+</html>
