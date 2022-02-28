@@ -1,7 +1,25 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #introImg{
     height:100vh;
     width: 100%;
 }
+@keyframes ani {
+    0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+  }
+.down{
+    position:absolute;
+    text-align: center;
+    top:70%;
+    left:50%;
+    z-index:10;
+    display: inline-block;
+    color:white;
+    font-size:50px;
+    animation: ani 1s linear;
+    animation-iteration-count: infinite;
+}
+
 .main {
     z-index:1;
     position: relative;
