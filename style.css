@@ -57,6 +57,7 @@ div {
     font-family: 'Cafe24SsurroundAir';
     background-color: #fff;
     padding: 100px 0;
+    text-decoration: none;
    
 }
 .map{
@@ -75,5 +76,16 @@ div {
 }
 .eunpyeong{
     top:27%;
-    left:40%;
+    left:39%;
+}
+.locate:hover{
+    font-size:27px;
+    cursor:pointer;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray; 
+   
+}
+a{
+    text-decoration:none !important
+
 }
