@@ -56,7 +56,8 @@ div {
 .sub{
     font-family: 'Cafe24SsurroundAir';
     background-color: #fff;
-    padding: 100px 0;
+    padding-top: 70px;
+    
     text-decoration: none;
    
 }
@@ -65,7 +66,7 @@ div {
     margin: 0px auto;
     z-index:0;
     position:relative;
-    width:90%;
+    width:80%;
     height:80%;
 }
 .locate{
@@ -88,4 +89,16 @@ div {
 a{
     text-decoration:none !important
 
+}
+.info{
+
+    z-index:10;
+    display: block; 
+    background-color: aquamarine;
+    width:200px;
+    height:100px;
+    border-radius: 80%;
+    margin-left:80%;
+    margin-bottom:20px;
+    
 }
