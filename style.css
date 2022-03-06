@@ -68,6 +68,7 @@ div {
     position:relative;
     width:80%;
     height:80%;
+    color:black;
 }
 .locate{
     display: block; 
@@ -78,6 +79,105 @@ div {
 .eunpyeong{
     top:27%;
     left:39%;
+}
+.seodae{
+    top: 45%;
+    left:39%;
+}
+.mapo{
+    top: 50%;
+    left:33%;
+}
+.jongro{
+    top:37%;
+    left: 46%;
+}
+.seongbuk{
+    top:37%;
+    left: 56%;
+}
+.kangbuk{
+    top:27%;
+    left: 56%;
+}
+.seongbuk{
+    top:37%;
+    left: 56%;
+}
+.nowon{
+    top:17%;
+    left: 58%;
+}
+.dobong{
+    top:17%;
+    left: 66%;
+}
+.jungrang{
+    top:38%;
+    left: 69%;
+}.dongdae{
+    top:42%;
+    left: 62%;
+}
+.jung{
+    top:50%;
+    left: 50%;
+}
+.yongsan{
+    top:58%;
+    left: 48%;
+}
+.seongdong{
+    top:52%;
+    left: 59%;
+}
+.kwangjin{
+    top:55%;
+    left: 68%;
+}
+.songpa{
+    top:68%;
+    left: 73%;
+}
+.kangdong{
+    top:54%;
+    left: 80%;
+}
+.kangnam{
+    top:70%;
+    left: 60%;
+}
+.seocho{
+    top:75%;
+    left: 53%;
+}
+.dongjak{
+    top:68%;
+    left: 41%;
+}
+.kwanak{
+    top:78%;
+    left: 41%;
+}
+.keumcheon{
+    top:80%;
+    left: 31%;
+}
+.kuro{
+    top:69%;
+    left: 25%;
+}
+.yangcheon{
+    top:62%;
+    left: 23%;
+}
+.yeongdeung{
+    top:62%;
+    left: 33%;
+}
+.kangseo{
+    top:50%;
+    left: 18%;
 }
 .locate:hover{
     font-size:27px;
