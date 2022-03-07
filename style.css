@@ -51,6 +51,7 @@ div {
 }
 *   { 
     margin:0;
+   
 }
 
 .sub{
@@ -187,18 +188,39 @@ div {
    
 }
 a{
-    text-decoration:none !important
+    text-decoration:none !important;
+    color:#000;
+    
 
 }
-.info{
-
+.footer img{
+    margin-left:70%;
+}
+.footer a{
+   
+    position:absolute;
+    z-index:100;
+    text-align: center;
+}
+/*
+.footer{
+    position: absolute;
     z-index:10;
-    display: block; 
-    background-color: aquamarine;
     width:200px;
     height:100px;
-    border-radius: 80%;
-    margin-left:80%;
+    margin-left:70%;
     margin-bottom:20px;
-    
+    text-align: center;
+    justify-content: center;  
 }
+
+.info img{
+    
+}   
+
+.info p{
+    z-index:2;
+    position:absolute;
+    left:80%;
+    top:90%;
+}*/
