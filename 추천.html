@@ -2,13 +2,17 @@
 <html>
     <title></title>
     <style>
+        #logo{
+            width:15%;
+            height:25%;
+        }
         #img1{
             position: absolute;
             top:10%;
             left:15%;
             height: 65%;
             width: 57%;
-            z-index: 2;
+            z-index: 1;
         }
         #person1{
             width: 25%;
@@ -16,7 +20,7 @@
             position: absolute;
             top:25%;
             left: 70%;
-            z-index: 1;
+            z-index: 0;
         }
         #img2{
             width:15%;
@@ -25,6 +29,13 @@
             top:75%;
             left:35%;
         }
+        #yes{
+            position: absolute;
+            top:80%;
+            left:39%;
+            width:5%;
+            height:5%;
+        }
         #img3{
             width:15%;
             height: 25%;
@@ -32,16 +43,91 @@
             top:75%;
             left:50%;
         }
+        #no{
+            position: absolute;
+            top:80%;
+            left:52%;
+            width:10%;
+            height:5%;
+        }
+        span{
+            position: absolute;
+            top:30%;
+            left:23%;
+            z-index: 2;
+        }
+        #question1{
+            font-size: x-large;
+        }
+        #question2{
+            font-size: x-large;
+        }
+        #question3{
+            font-size: x-large;
+        }
+
+        
     </style>
     <head>
         <body>
-
+            <img id="logo" src="https://user-images.githubusercontent.com/81658826/162761011-ce04a026-ad37-4da6-b692-d6366c5a9861.png">
 
             <img id="img1" src="https://user-images.githubusercontent.com/81658826/159156795-4503b8bf-27ee-4c2e-b6de-65c5de8b4788.jpg">
+
+            <div id='question1'>
+                <span><h1>1. 오래 걷는 것을 좋아하나요?</h1></span>
+            </div>
+            <div id='question2'>
+                <span><h1>2. 사람 많은 곳을 좋아하나요?</h1></span>
+            </div>
+            <!-- <div id='question3'>
+                <span><h1>3. 돈을 많이 사용할수 있나요?</h1></span>
+            </div> -->
+
+            <div id="yes">
+                <span><h1>예</h1></span>
+            </div>
+            <div id="no">
+                <span><h1>아니요</h1></span>
+            </div>
+
+
             <img id='person1' src="https://user-images.githubusercontent.com/81658826/159154937-85781130-aa81-431b-b61d-989422a302bb.jpg">
 
             <img id="img2" src="https://user-images.githubusercontent.com/81658826/159155709-784495c7-907e-4bc8-b543-2991dd82424d.jpg">
             <img id="img3" src="https://user-images.githubusercontent.com/81658826/159156918-e1cfede6-9640-47c5-b39a-a0a5fd465e0e.jpg">
+
+        
         </body>
     </head>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+        $('#question1').show(); //페이지를 로드할 때 표시할 요소
+        $('#question2').hide(); //페이지를 로드할 때 숨길 요소
+        $('#yes').click(function(){
+        $ ('#question1').hide(); //클릭 시 첫 번째 요소 숨김
+        $ ('#question2').show(); //클릭 시 두 번째 요소 표시
+                // $('#yes').click(function(){
+                // $ ('#question2').hide(); //클릭 시 첫 번째 요소 숨김
+                // $ ('#question2').show(); //클릭 시 두 번째 요소 표시
+                // });
+        return false;
+        });
+        });
+
+        $(document).ready(function() {
+        $('#question1').show(); //페이지를 로드할 때 표시할 요소
+        $('#question2').hide(); //페이지를 로드할 때 숨길 요소
+        $('#no').click(function(){
+        $ ('#question1').hide(); //클릭 시 첫 번째 요소 숨김
+        $ ('#question2').show(); //클릭 시 두 번째 요소 표시
+        return false;
+        });
+        });
+
+
+
+    </script>
 </html>
