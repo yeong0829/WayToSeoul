@@ -45,6 +45,13 @@
             width:5%;
             height:5%;
         }
+        #yes1{
+            position: absolute;
+            top:80%;
+            left:39%;
+            width:5%;
+            height:5%;
+        }
         #img3{
             width:15%;
             height: 25%;
@@ -53,6 +60,13 @@
             left:50%;
         }
         #no{
+            position: absolute;
+            top:80%;
+            left:52%;
+            width:10%;
+            height:5%;
+        }
+        #no1{
             position: absolute;
             top:80%;
             left:52%;
@@ -82,6 +96,14 @@
             cursor:pointer;
             color:rgb(0, 0, 148);
         }
+        #yes1 span:hover{
+            cursor:pointer;
+            color:rgb(0, 0, 148);
+        }
+        #no1 span:hover{
+            cursor:pointer;
+            color:rgb(0, 0, 148);
+        }
         
 
         
@@ -98,14 +120,20 @@
             <div id='question2'>
                 <span><h1>2. 사람 많은 곳을 좋아하나요?</h1></span>
             </div>
-            <!-- <div id='question3'>
+            <div id='question3'>
                 <span><h1>3. 돈을 많이 사용할수 있나요?</h1></span>
-            </div> -->
+            </div>
 
             <div id="yes">
                 <span><h1>예</h1></span>
             </div>
+            <div id="yes1">
+                <span><h1>예</h1></span>
+            </div>
             <div id="no">
+                <span><h1>아니요</h1></span>
+            </div>
+            <div id="no1">
                 <span><h1>아니요</h1></span>
             </div>
 
@@ -124,25 +152,52 @@
         $(document).ready(function() {
         $('#question1').show(); //페이지를 로드할 때 표시할 요소
         $('#question2').hide(); //페이지를 로드할 때 숨길 요소
+        $('#question3').hide(); //페이지를 로드할 때 숨길 요소
+        $ ('#yes1').hide(); //클릭 시 첫 번째 요소 숨김
+
         $('#yes').click(function(){
         $ ('#question1').hide(); //클릭 시 첫 번째 요소 숨김
         $ ('#question2').show(); //클릭 시 두 번째 요소 표시
-                // $('#yes').click(function(){
-                // $ ('#question2').hide(); //클릭 시 첫 번째 요소 숨김
-                // $ ('#question2').show(); //클릭 시 두 번째 요소 표시
-                // });
+        $ ('#question3').hide(); //클릭 시 첫 번째 요소 숨김
+        $ ('#yes1').show(); //클릭 시 첫 번째 요소 숨김
+        $ ('#yes').hide(); //클릭 시 첫 번째 요소 숨김
+        
+    }); 
+        $('#yes1').click(function(){
+        $ ('#question2').hide(); //클릭 시 첫 번째 요소 숨김
+        $ ('#question3').show(); //클릭 시 두 번째 요소 표시
+  
+            
         return false;
         });
+
+        $('#no').click(function(){
+        $ ('#question1').hide(); //클릭 시 첫 번째 요소 숨김
+        $ ('#question2').show(); //클릭 시 두 번째 요소 표시
+        $ ('#question3').hide(); //클릭 시 첫 번째 요소 숨김
+        $ ('#no1').show(); //클릭 시 첫 번째 요소 숨김
+        $ ('#no').hide(); //클릭 시 첫 번째 요소 숨김
+        return false;
         });
+
+        $('#no1').click(function(){
+        $ ('#question2').hide(); //클릭 시 첫 번째 요소 숨김
+        $ ('#question3').show(); //클릭 시 두 번째 요소 표시
+  
+            
+        return false;
+        });
+
+        
+
+    });
+       
 
         $(document).ready(function() {
         $('#question1').show(); //페이지를 로드할 때 표시할 요소
         $('#question2').hide(); //페이지를 로드할 때 숨길 요소
-        $('#no').click(function(){
-        $ ('#question1').hide(); //클릭 시 첫 번째 요소 숨김
-        $ ('#question2').show(); //클릭 시 두 번째 요소 표시
-        return false;
-        });
+
+        
         });
 
 
