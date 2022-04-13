@@ -148,12 +148,14 @@
     </head>
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script>
-
+        let point =0;
+        
         $(document).ready(function() {
         $('#question1').show(); //페이지를 로드할 때 표시할 요소
         $('#question2').hide(); //페이지를 로드할 때 숨길 요소
         $('#question3').hide(); //페이지를 로드할 때 숨길 요소
         $ ('#yes1').hide(); //클릭 시 첫 번째 요소 숨김
+        $('#no1').hide();
 
         $('#yes').click(function(){
         $ ('#question1').hide(); //클릭 시 첫 번째 요소 숨김
