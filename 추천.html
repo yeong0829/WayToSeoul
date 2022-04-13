@@ -52,6 +52,13 @@
             width:5%;
             height:5%;
         }
+        #yes2{
+            position: absolute;
+            top:80%;
+            left:39%;
+            width:5%;
+            height:5%;
+        }
         #img3{
             width:15%;
             height: 25%;
@@ -107,6 +114,10 @@
             cursor:pointer;
             color:rgb(0, 0, 148);
         }
+        #yes2 span:hover{
+            cursor:pointer;
+            color:rgb(0, 0, 148);
+        }
         #no1 span:hover{
             cursor:pointer;
             color:rgb(0, 0, 148);
@@ -140,6 +151,9 @@
             <div id="yes1">
                 <span><h1>예</h1></span>
             </div>
+            <div id="yes2">
+                <span><h1>예</h1></span>
+            </div>
             <div id="no">
                 <span><h1>아니요</h1></span>
             </div>
@@ -168,6 +182,7 @@
         $('#question2').hide(); 
         $('#question3').hide(); 
         $ ('#yes1').hide(); 
+        $ ('#yes2').hide(); 
         $('#no1').hide();
         $('#no2').hide();
 
@@ -177,15 +192,18 @@
         $ ('#question3').hide(); 
         $ ('#yes1').show(); 
         $ ('#yes').hide(); 
+        $ ('#yes2').hide(); 
         point+=1;
         
     }); 
         $('#yes1').click(function(){
         $ ('#question2').hide(); //클릭 시 첫 번째 요소 숨김
         $ ('#question3').show(); //클릭 시 두 번째 요소 표시
-        
+        $ ('#yes2').show(); //클릭 시 첫 번째 요소 숨김
+        $ ('#yes1').hide(); //클릭 시 첫 번째 요소 
+        $ ('#yes').hide(); 
             
-            
+        point +=10;
         return false;
         });
 
@@ -212,11 +230,15 @@
         
 
         $('#no2').click(function(){
-        //window.open("index.html");
-        
-        point+=200;
-        result();
-        return false;
+            point+=200;
+            result();
+            return false;
+        });
+
+        $('#yes2').click(function(){
+            point+=100;
+            result();
+            return false;
         });
         
 
@@ -225,7 +247,6 @@
        1 2
         10 20
         100 200
-
        yyy : 111
        yyn: 211
        ynn: 221
@@ -237,8 +258,29 @@
     
        */
     function result(){
-       if(point == 222){ // n n n
-            window.open("index.html")
+       if(point == 111){
+        window.open("index.html");
+       }
+       else if(point == 211){ // n n n
+            window.open("index.html");
+        }
+        else if(point == 221){ // n n n
+            window.open("index.html");
+        }
+        else if(point == 121){ // n n n
+            window.open("index.html");
+        }
+        else if(point == 222){ // n n n
+            window.open("index.html");
+        }
+        else if(point == 122){ // n n n
+            window.open("index.html");
+        }
+        else if(point == 212){ // n n n
+            window.open("index.html");
+        }
+        else if(point == 222){ // n n n
+            window.open("index.html");
         }
     }
         //open은 window.open("");쓰면 됨
