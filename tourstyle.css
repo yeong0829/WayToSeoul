@@ -76,9 +76,6 @@ strong{
 }
 .travel .travel-info .tr{
     padding-left:50%;
-   
-    
-    
 }
 
 @keyframes ani {
@@ -135,8 +132,8 @@ strong{
 }
 .item{
     display:inline-block;
-    width:40%;
-    height:40%;
+    width:30%;
+    height:30%;
     position: relative;
     margin-left:5px;
     margin-bottom:10px;
