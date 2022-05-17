@@ -27,7 +27,7 @@ div{
 }
 */
 .travel{
-    background-color: #DBD0C0;
+    background-color: #FBFBEF;
     padding: 104px 0;
     overflow:hidden;
 }
@@ -172,4 +172,13 @@ strong{
 
 .item:hover .caption{
     opacity: 1;
+}
+.ib{
+    position: absolute;
+    background-color:#C5A8A8;
+    width: 30%;
+    height:100%;
+    margin-left: 2%;
+
+    
 }
