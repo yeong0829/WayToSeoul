@@ -35,7 +35,7 @@ strong{
     font-size:50px;
 }
 .restaurant{
-    background-color: #FAEEE0;
+    background-color: #FBFBEF;
     padding: 50px 0 10px;
     font-size:15px;
     
@@ -48,7 +48,7 @@ strong{
     font-size:70px;
 }
 .footer{
-    background-color: #FAEEE0;
+    background-color: #FBFBEF;
     width:100%;
 
     
@@ -179,6 +179,30 @@ strong{
     width: 30%;
     height:100%;
     margin-left: 2%;
-
+}
+.ib2{
+    position: absolute;
+    background-color:#CBC3AC;
+    width: 30%;
+    height:100%;
+    margin-left: 68%;
+}
+.ib3{
+    position: absolute;
+    background-color:#B9CAAA;
+    width: 30%;
+    height:100%;
+    margin-left: 2%;
+}
+.ib4{
+    position: absolute;
+    background-color:#A7C3C6;
+    width: 30%;
+    height:100%;
+    margin-left: 68%;
+}
+hr{
+    text-align: center;
+    width:90%;
     
 }
