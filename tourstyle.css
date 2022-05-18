@@ -208,3 +208,26 @@ hr{
     width:90%;
     
 }
+.main{
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}
+.main img{
+    width: 50%;
+    height: 80%;
+    margin-top: 7%;
+    margin-left: 40%;
+}
+.main .tn{
+    position:absolute;
+    left:0;
+    margin-left: 10%;
+    top: 10%;
+}
+.main h1{
+    text-align: center;
+    align-items: center;
+    font-size:80px;
+}
