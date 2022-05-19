@@ -52,7 +52,7 @@
 }
 div {
     display: block;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 *   { 
     margin:0;
@@ -186,7 +186,7 @@ div {
     left: 18%;
 }
 .locate:hover{
-    font-size:27px;
+    font-size:2rem;
     cursor:pointer;
     font-weight: bold;
     text-shadow: 1px 1px 1px gray; 
