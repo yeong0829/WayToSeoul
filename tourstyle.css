@@ -203,6 +203,13 @@ strong{
     height:100%;
     margin-left: 68%;
 }
+.ib5{
+    position: absolute;
+    background-color:#CAABC7;
+    width: 30%;
+    height:100%;
+    margin-left: 2%;
+}
 hr{
     text-align: center;
     width:90%;
