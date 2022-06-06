@@ -213,6 +213,24 @@ a{
     text-align: center;
     
 }
+.weather{
+   margin-left: 80%;
+   z-index: -10;
+   margin-top: 2%;
+   align-items: center;
+   
+}
+
+.weatherimg{
+    width: 20%;
+}
+.weather h1 {
+    font-size: 3em;
+}
+.weatherInfo {
+    font-size: 1em;
+   
+}
 
 /*
 .footer{
@@ -225,11 +243,9 @@ a{
     text-align: center;
     justify-content: center;  
 }
-
 .info img{
     
 }   
-
 .info p{
     z-index:2;
     position:absolute;
