@@ -28,7 +28,6 @@ body{
     animation: ani 1s linear;
     animation-iteration-count: infinite;
 }
-
 .main {
     z-index:1;
     position: relative;
@@ -218,6 +217,7 @@ a{
    z-index: -10;
    margin-top: 2%;
    align-items: center;
+   position:absolute;
    
 }
 
