@@ -72,6 +72,9 @@ div {
     margin:0;
    
 }
+.two{
+    
+}
 
 .sub{
     font-family: 'Cafe24SsurroundAir';
@@ -82,6 +85,7 @@ div {
    
 }
 .map{
+   
     display: block; 
     margin: 0px auto;
     z-index:0;
@@ -213,13 +217,13 @@ a{
 
 }
 .footer img{
-    margin-left:70%;
+    margin-left:75%;
 }
 .footer a{
    
     position:absolute;
     z-index:100;
-    left:77%;
+    left:80%;
     top:30%;
     text-align: center;
     
