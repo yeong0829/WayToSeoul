@@ -27,15 +27,15 @@ div{
 }
 */
 .travel{
-    background-color: #DBD0C0;
+    background-color: #FBFBEF;
     padding: 104px 0;
     overflow:hidden;
 }
 strong{
-    font-size:50px;
+    font-size:4rem;
 }
 .restaurant{
-    background-color: #FAEEE0;
+    background-color: #FBFBEF;
     padding: 50px 0 10px;
     font-size:15px;
     
@@ -48,7 +48,7 @@ strong{
     font-size:70px;
 }
 .footer{
-    background-color: #FAEEE0;
+    background-color: #FBFBEF;
     width:100%;
 
     
@@ -70,6 +70,7 @@ strong{
     top: 50%;
     transform: translateY(-50%);
     left:50%;
+    font-size: 2rem;
 }
 .travel .travel-info .img{
     padding:5%;
@@ -105,6 +106,7 @@ strong{
     top: 50%;
     transform: translateY(-50%);
     left:10%;
+    font-size:2rem;
 }
 .item{
     display:inline-block;
@@ -123,7 +125,7 @@ strong{
     
 }
 .footer .next{
-    margin-left:65%;
+    margin-left:75%;
 }
 /*caption css*/
 .restaurant{
@@ -172,4 +174,73 @@ strong{
 
 .item:hover .caption{
     opacity: 1;
+}
+.ib{
+    position: absolute;
+    background-color:#C5A8A8;
+    width: 30%;
+    height:100%;
+    margin-left: 2%;
+}
+.ib2{
+    position: absolute;
+    background-color:#CBC3AC;
+    width: 30%;
+    height:100%;
+    margin-left: 68%;
+}
+.ib3{
+    position: absolute;
+    background-color:#B9CAAA;
+    width: 30%;
+    height:100%;
+    margin-left: 2%;
+}
+.ib4{
+    position: absolute;
+    background-color:#A7C3C6;
+    width: 30%;
+    height:100%;
+    margin-left: 68%;
+}
+.ib5{
+    position: absolute;
+    background-color:#CAABC7;
+    width: 30%;
+    height:100%;
+    margin-left: 2%;
+}
+hr{
+    text-align: center;
+    width:90%;
+    
+}
+.main{
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100vh;
+   
+}
+.main img{
+    width: 50%;
+    height: 80%;
+    margin-top: 7%;
+    margin-left: 40%;
+}
+.main .tn{
+    position:absolute;
+    left:0;
+    margin-left: 10%;
+    top: 40%;
+}
+.main h1{
+    text-align: center;
+    align-items: center;
+    font-size:80px;
+}
+.jul{
+    width: 90%;
+    height: 3px;
+    margin-left: 5%;
+    background-color: rgb(78, 30, 30);
 }

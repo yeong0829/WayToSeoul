@@ -5,9 +5,24 @@
     font-weight: normal;
     font-style: normal;
 }
-#introImg{
-    height:100vh;
-    width: 100%;
+body{
+    font-family: 'Cafe24SsurroundAir';
+}
+.gradation{
+    z-index: -19;
+    margin: 0%;
+    height: 100vh;
+    width: 35%;
+    background: linear-gradient(to right, rgb(198, 201, 169), rgb(255, 255, 255));
+}
+
+#introImg{ 
+    position:absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 5%;
+    height:70vh;
+    width: 65%;
 }
 @keyframes ani {
     0% {margin-top: 0px;}
@@ -17,7 +32,7 @@
     position:absolute;
     text-align: center;
     top:70%;
-    left:50%;
+    left:60%;
     z-index:10;
     display: inline-block;
     color:white;
@@ -25,7 +40,6 @@
     animation: ani 1s linear;
     animation-iteration-count: infinite;
 }
-
 .main {
     z-index:1;
     position: relative;
@@ -37,8 +51,8 @@
     background-size: cover;
 }
 .logo{
-    top:0;
-    left:0;
+    top:20%;
+    left:5%;
     z-index:100;
     position:absolute;
 }
@@ -52,7 +66,7 @@
 }
 div {
     display: block;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 *   { 
     margin:0;
@@ -186,7 +200,7 @@ div {
     left: 18%;
 }
 .locate:hover{
-    font-size:27px;
+    font-size:2rem;
     cursor:pointer;
     font-weight: bold;
     text-shadow: 1px 1px 1px gray; 
@@ -210,6 +224,25 @@ a{
     text-align: center;
     
 }
+.weather{
+   margin-left: 80%;
+   z-index: -10;
+   margin-top: 2%;
+   align-items: center;
+   position:absolute;
+   
+}
+
+.weatherimg{
+    width: 20%;
+}
+.weather h1 {
+    font-size: 3em;
+}
+.weatherInfo {
+    font-size: 1em;
+   
+}
 
 /*
 .footer{
@@ -222,11 +255,9 @@ a{
     text-align: center;
     justify-content: center;  
 }
-
 .info img{
     
 }   
-
 .info p{
     z-index:2;
     position:absolute;
