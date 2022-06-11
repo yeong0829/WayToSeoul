@@ -72,8 +72,9 @@ div {
     margin:0;
    
 }
-.two{
-    
+/* .two{
+    background: rgb(199,201,169);
+background: radial-gradient(circle, rgba(199,201,169,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 100%); */
 }
 
 .sub{
@@ -133,7 +134,7 @@ div {
     left: 58%;
 }
 .dobong{
-    top:17%;
+    top:19%;
     left: 66%;
 }
 .jungrang{
