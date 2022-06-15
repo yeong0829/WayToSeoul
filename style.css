@@ -13,7 +13,8 @@ body{
     margin: 0%;
     height: 100vh;
     width: 35%;
-    background: linear-gradient(to right, rgb(198, 201, 169), rgb(255, 255, 255));
+    /* background: linear-gradient(to right, rgb(198, 201, 169), rgb(255, 255, 255)); */
+    background-color:rgb(198, 201, 169)
 }
 
 #introImg{ 
@@ -74,8 +75,8 @@ div {
 }
 /* .two{
     background: rgb(199,201,169);
-background: radial-gradient(circle, rgba(199,201,169,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 100%); */
-}
+background: radial-gradient(circle, rgba(199,201,169,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 100%); 
+}*/
 
 .sub{
     font-family: 'Cafe24SsurroundAir';
