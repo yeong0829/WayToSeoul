@@ -208,15 +208,19 @@ background: radial-gradient(circle, rgba(199,201,169,1) 0%, rgba(255,255,255,1) 
     left: 18%;
 }
 .locate:hover{
-    font-size:2rem;
+    font-size:3rem;
     cursor:pointer;
     font-weight: bold;
     text-shadow: 1px 1px 1px gray; 
    
 }
+.locate{
+    font-size: 2rem;
+}
 a{
     text-decoration:none !important;
     color:#000;
+   
     
 
 }
