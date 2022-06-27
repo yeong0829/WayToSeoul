@@ -13,7 +13,8 @@ body{
     margin: 0%;
     height: 100vh;
     width: 35%;
-    background: linear-gradient(to right, rgb(198, 201, 169), rgb(255, 255, 255));
+    /* background: linear-gradient(to right, rgb(198, 201, 169), rgb(255, 255, 255)); */
+    background-color:rgb(198, 201, 169)
 }
 
 #introImg{ 
@@ -51,13 +52,15 @@ body{
     background-size: cover;
 }
 .logo{
-    top:20%;
+    top:25%;
     left:5%;
+    
     z-index:100;
     position:absolute;
 }
 .ml{
     position:absolute;
+    width: 20%;
     /* bottom:0.11%; */
     /* right:1%; */
 }
@@ -74,8 +77,8 @@ div {
 }
 /* .two{
     background: rgb(199,201,169);
-background: radial-gradient(circle, rgba(199,201,169,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 100%); */
-}
+background: radial-gradient(circle, rgba(199,201,169,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 100%); 
+}*/
 
 .sub{
     font-family: 'Cafe24SsurroundAir';
@@ -205,15 +208,19 @@ background: radial-gradient(circle, rgba(199,201,169,1) 0%, rgba(255,255,255,1) 
     left: 18%;
 }
 .locate:hover{
-    font-size:2rem;
+    font-size:3rem;
     cursor:pointer;
     font-weight: bold;
     text-shadow: 1px 1px 1px gray; 
    
 }
+.locate{
+    font-size: 2rem;
+}
 a{
     text-decoration:none !important;
     color:#000;
+   
     
 
 }
